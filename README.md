@@ -28,3 +28,18 @@ The Design specifications of the OTA are as follows
 The uploaded document(Report.pdf), has all the hand calculations and simulation results for operating point, STB analysis, slew rate, settling time, systematic offset, noise, cmrr, psrr, input common-mode range, closed loop gain, closed loop transient analysis, power consumption. The report also includes the design of a pseudo resistor which is used for the neural amplifier design.
 
 The amplifiers have been designed and simulated in LTSpice, the simulation files are uploaded in the ``` /simulations ``` folder
+
+The obtained design parameters of the OTA after hand calculations are tabulated as follows 
+| Component           | Value    |
+|---------------------|----------|
+| Current I_bias     | 10µ      |
+| Load Capacitance    | 10fF     |
+| M1, M2              | 0.8µ/0.5µ|
+| M3, M4, M5          | 40µ/5µ   |
+| M6                  | 32µ/5µ   |
+| M7                  | 80µ/5µ   |
+| M8                  | 50µ/5µ   |
+| M9, M10             | 50µ/5µ   |
+| Mcasep              | 2µ/1µ    |
+| Mcasen              | 1µ/1µ    |
+
